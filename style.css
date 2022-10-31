@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    --text-shadow: rgb(21, 21, 21) 3px 0px 0px, rgb(21, 21, 21) 2.83487px 0.981584px 0px, rgb(21, 21, 21) 2.35766px 1.85511px 0px, rgb(21, 21, 21) 1.62091px 2.52441px 0px, rgb(21, 21, 21) 0.705713px 2.91581px 0px, rgb(21, 21, 21) -0.287171px 2.98622px 0px, rgb(21, 21, 21) -1.24844px 2.72789px 0px, rgb(21, 21, 21) -2.07227px 2.16926px 0px, rgb(21, 21, 21) -2.66798px 1.37182px 0px, rgb(21, 21, 21) -2.96998px 0.42336px 0px, rgb(21, 21, 21) -2.94502px -0.571704px 0px, rgb(21, 21, 21) -2.59586px -1.50383px 0px, rgb(21, 21, 21) -1.96093px -2.27041px 0px, rgb(21, 21, 21) -1.11013px -2.78704px 0px, rgb(21, 21, 21) -0.137119px -2.99686px 0px, rgb(21, 21, 21) 0.850987px -2.87677px 0px, rgb(21, 21, 21) 1.74541px -2.43999px 0px, rgb(21, 21, 21) 2.44769px -1.73459px 0px, rgb(21, 21, 21) 2.88051px -0.838247px 0px;
+    --bg-color: rgb(235, 207, 66);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/texture-background_1404-99.jpg?w=2000) ;
+}
+
+.title-container{
+    margin: auto;
+    width: fit-content;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    padding: 18px;
+    
+    transition: all .5s;
+    text-shadow: var(--text-shadow);
+    color: #fff;
+}
+
+.title:hover{
+    transform: scale(1.12);
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+
+.input-entry{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--bg-color);
+    border: 2px solid #665427;
+    border-radius: 20px;
+}
+
+#entry { 
+    border-color:#cccccc; 
+    border-radius: 50px; 
+    border-width: 2px; 
+    padding: 4px; 
+    border-style: solid;  
+    font-size: 16px;
+}
+
+.label{
+    font-weight: 700;
+}
+
+.add {
+	background-color:#448cc7;
+	border-radius:15px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 14px;
+	padding: 12px 25px;
+	text-decoration: none;
+}
+
+.add:hover {
+	background-color:#3a80b9;
+}
+
+.app{
+    margin: auto;
+    background-color: var(--bg-color);
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #665427;
+    padding: 10px 10px 30px 10px;
+}
+
+table{
+    margin: auto;
+}
+
+td, th {
+    border-bottom: 1px solid rgb(6, 0, 44);
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+.finished {
+    text-decoration: line-through;
+}
+
+.done {
+	background-color:#44c767;
+	border-radius: 15px;
+	display: inline-block;
+	cursor: pointer;
+	color:#ffffff;
+	font-size: 15px;
+	padding: 16px 25px;
+	text-decoration: none;
+}
+
+.done:hover {
+	background-color:#37b157;
+}
+
+
+.remove {
+	background-color:#c74545;
+	border-radius:15px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 16px 31px;
+	text-decoration: none;
+}
+.remove:hover {
+	background-color:#ac3131;
+}
+
+.checked{
+    text-decoration: line-through;
+}
